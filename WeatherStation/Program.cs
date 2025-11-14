@@ -5,6 +5,7 @@ class Program
     {
         Console.WriteLine("Hello, World!");
         User user = new User();
+        Sensor sencor = new Sencor();
     }
 }
 
