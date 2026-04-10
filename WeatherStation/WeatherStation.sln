@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.14.36705.20
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "WeatherStation.csproj", "{1E2BC4F3-0F4C-71CF-68EE-19CD7FB8748C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{60277EC5-A3F9-4279-9305-841EBAC51C57} = {60277EC5-A3F9-4279-9305-841EBAC51C57}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "..\Database\Database.csproj", "{5BD16865-EA19-E443-5C31-55F4D9896C82}"
 EndProject
